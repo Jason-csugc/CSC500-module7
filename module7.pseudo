@@ -1,0 +1,14 @@
+set courseList = ['CSC101', 'CSC102', 'CSC103', 'NET110', 'COM241']
+set roomList = ['3004', '4501', '6755', '1244', '1411']
+set instrctorList = ['Haynes', 'Alvarado', 'Rich', 'Burke', 'Lee']
+set timesList = ['8:00 a.m.', '9:00 a.m.', '10:00 a.m.', '11:00 a.m.', '1:00 p.m.']
+
+set courseRoomDict = concatenate(courseList, roomList)
+set courseInstructorDict = concatenate(courseList, instrctorList)
+set courseTimeDict = concatenate(courseList, timesList)
+
+set courseInput = prompt user for courseInput
+
+get room, instructor, time from dict by course key
+
+output room, instructor, time of courseInput
